@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Luc IñakiPalacios</title>
+    <link rel="stylesheet" href="app.css"> <!-- Link to your CSS file -->
+</head>
+<body>
+    <header>
+        <h1 id="pageTitle">Resume</h1> <!-- Add id attribute to target it -->
+    </header>
+    
+    <main>
+        <!-- About Me Section -->
+        <section id="about" class="section" style="display: block;">
+            <script>
+                updateHeader("About Me");
+            </script>
+
+            <h3>About Me</h3>
+            <!-- Hello -->
+            <p>Greetings and welcome to my portfolio website! My name is Luc Iñaki Palacios, and I'm delighted to share a glimpse into my journey and passions with you.</p>
+            <!-- Education -->
+            <p>Currently, I am pursuing my studies in Computer Science at the University of Colorado Boulder, with an anticipated graduation year of 2026. However, my educational path has been quite unconventional. As a child, I was homeschooled by my mother, an experience that instilled in me a sense of self-discipline and a thirst for knowledge. When the time came for high school, I opted for community college, which provided me with a diverse learning environment and valuable experiences beyond the traditional classroom setting.</p>
+            <!-- Interests -->
+            <p>My interests are eclectic and reflect my curiosity about the world around me. From delving into the intricacies of FinTech tointerests exploring the thrill of FPV Drones, my pursuits are diverse and ever-evolving. I'm equally passionate about hitting the soccer field for a game, carving through powder on a snowboard, or engaging in strategic battles in the world of Magic: The Gathering. Each interest offers its own unique challenges and rewards, keeping me engaged and motivated in different ways.</p>
+            <!-- Bye -->
+            <p>Through this portfolio website, I aim to showcase my projects, achievements, and the unique blend of skills and experiences that define who I am. Thank you for taking the time to learn about me, and I look forward to connecting with you further on this exciting journey.</p>
+            
+            <h3>Contact Information</h3>
+            <p>Luc Iñaki Palacios<br>Boulder CO<br>kindlipr@gmail.com</p>
+
+            <button id="resumeButton">Resume</button> <!-- Button to switch to Resume section -->
+            <button onclick="changeColorPalette()">Change Color Palette</button>
+        </section>
+        
+        <!-- Resume Section -->
+        <section id="resume" class="section" style="display: none;">
+            <script>
+                updateHeader("Resume");
+            </script>
+
+            <!-- Contact Information -->
+            <h3>Contact Information</h3>
+            <p>Luc Iñaki Palacios<br>Boulder CO<br>kindlipr@gmail.com</p>
+
+            <!-- Education -->
+            <h3>Education</h3>
+            <p>Boulder, CO<br>University of Colorado<br>Fall 2022 – Spring 2026<br>BA in Computer Science.<br>Second Year Student, 99 credits completed.<br>3.64 GPA.<br>Coursework: C++ fundamentals; Algorithms; Data Structures; Calculus II; Discrete Math.</p>
+            <!-- Other education entries... -->
+
+            <!-- Employment -->
+            <h3>Employment</h3>
+            <p>Team Member<br>Snarf’s Sandwiches<br>Summer 2022<br>Collaborated with team members to ensure efficient and smooth operations during peak hours.<br>Adhered to health and safety guidelines, contributing to a clean and organized work environment.<br>Embraced and successfully completed training programs to become a proficient employee.</p>
+            <!-- Other employment entries... -->
+
+            <!-- Additional Experience and Awards -->
+            <h3>Additional Experience and Awards</h3>
+            <p>Instructor: Private tutor of 8th grade math and Spanish for a semester.<br>Panther Pride Award: Awarded for being the role model player on Boulder HS Varsity Soccer team<br>BC United: Soccer Academy captain (forward and midfield).<br>NOLS Wilderness First Aid: CPR Certification; Certification in Epinephrine Auto-injector.</p>
+            <!-- Other experience and awards entries... -->
+
+            <!-- Languages and Technologies -->
+            <h3>Languages and Technologies</h3>
+            <p>C++; Advanced Excel; Google Workspace; Microsoft Visual Basic for Applications; Blender.<br>Fluent in English and Spanish, conversational in French.</p>
+
+            <!-- Interests -->
+            <h3>Interests</h3>
+            <p>Machine Learning; Self-Driving Cars; FinTech; FPV Drones; Soccer; Snowboarding; MTG.</p>
+
+            <button id="aboutButton">About Me</button> <!-- Button to switch to About Me section -->
+            <button onclick="changeColorPalette()">Change Color Palette</button>
+        </section>
+    </main>
+
+    <footer>
+        <button onclick="window.open('https://www.linkedin.com/in/lucpalacios/', '_blank')">LinkedIn</button>
+        <button onclick="window.open('https://www.instagram.com/inaki.fpv/', '_blank')">Instagram</button>
+        <p>&copy; 2024 Luc Palacios</p>
+    </footer>
+    
+    <script src="app.js"></script> <!-- Link to your JavaScript file -->
+</body>
+</html>

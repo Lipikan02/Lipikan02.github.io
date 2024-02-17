@@ -1,0 +1,60 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    background-color: #fefae0; /* Lightest color from the first palette - default light mode */
+    color: #283618; /* Darkest color from the first palette - default light mode */
+}
+
+header {
+    background-color: #606c38; /* Color from the first palette - default light mode */
+    color: #fefae0; /* Lightest color from the first palette - default light mode */
+    padding: 20px;
+    text-align: center;
+}
+
+footer {
+    background-color: #606c38; /* Color from the first palette - default light mode */
+    color: #fefae0; /* Lightest color from the first palette - default light mode */
+    text-align: center;
+    padding: 20px;
+}
+
+main {
+    padding: 30px;
+    margin-left: 60px;
+}
+
+.section {
+    margin-bottom: 30px;
+    padding-bottom: 20px;
+}
+
+.section h2 {
+    color: #283618; /* Darkest color from the first palette - default light mode */
+    padding: 0px;
+    margin-top: 0;
+}
+
+.section p {
+    margin-bottom: 20px;
+    margin-left: 60px;
+}
+
+.dark-mode .section p {
+    color: #eae0d5; /* Lightest color from the second palette */
+}
+
+button {
+    background-color: #bc6c25; /* Color from the first palette - default light mode */
+    color: #fefae0; /* Lightest color from the first palette - default light mode */
+    border: none;
+    padding: 10px 20px;
+    font-size: 1em;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #dda15e; /* Second lightest color from the first palette */
+}
