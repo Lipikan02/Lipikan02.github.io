@@ -24,6 +24,7 @@ footer {
 main {
     padding: 30px;
     margin-left: 60px;
+    margin-right: 60px;
 }
 
 .section {
@@ -40,6 +41,7 @@ main {
 .section p {
     margin-bottom: 20px;
     margin-left: 60px;
+    margin-right: 60px;
 }
 
 .dark-mode .section p {
@@ -57,4 +59,20 @@ button {
 
 button:hover {
     background-color: #dda15e; /* Second lightest color from the first palette */
+}
+
+/* Mobile Styles */
+@media only screen and (max-width: 600px) {
+    main {
+        padding: 10px;
+    }
+    
+    .section {
+        margin-bottom: 15px;
+        padding-bottom: 5px;
+    }
+    
+    button {
+        padding: 8px 16px;
+    }
 }
