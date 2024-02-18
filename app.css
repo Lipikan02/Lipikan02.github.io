@@ -49,6 +49,10 @@
     text-align: center;
     padding: 20px;
     }
+
+    main {
+    padding: 12px;
+    }
     
 @media only screen and (min-width: 600px) {
 
@@ -111,7 +115,7 @@
     margin-right: 10px;
     }
 
-    /* CSS for Mobile Devices 22333b*/
+    /* CSS for Mobile Devices 
 @media only screen and (max-width: 600px) {
 
     .mobile-device body {
@@ -122,7 +126,7 @@
     }
     
     .mobile-device header {
-    --header-background-color: #ca329f;
+    --header-background-color: #22333b;
     --header-text-color: #eae0d5;
     padding: 14px;
     margin: 0;
@@ -190,3 +194,5 @@
     margin-top: 0;
     }
 }
+
+*/
