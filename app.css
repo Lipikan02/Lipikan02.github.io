@@ -62,22 +62,20 @@ button:hover {
 }
 
 /* Mobile Styles */
+/* Mobile Styles */
 @media only screen and (max-width: 600px) {
     main {
         padding: 10px;
-        margin-left: 10px; /* Adjusted margin for mobile */
-        margin-right: 10px; /* Adjusted margin for mobile */
+        margin: 0; /* Reset margin */
     }
     
     .section {
-        margin-bottom: 10px; /* Further reduced margin bottom */
-        padding-bottom: 0px; /* Removed padding bottom */
-        margin-left: 10px; /* Adjusted margin for mobile */
-        margin-right: 10px; /* Adjusted margin for mobile */
+        margin: 0; /* Reset margin */
+        padding: 0; /* Reset padding */
     }
     
     .section p {
-        padding: 0 10px; /* Further reduced padding for left and right */
+        padding: 0; /* Reset padding */
     }
     
     button {
