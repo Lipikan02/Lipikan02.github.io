@@ -11,9 +11,9 @@
     --section-text-color: #22333b;
     --button-background-color: #5e503f;
     --button-text-color: var(--lightest-color);
-}
-
-.dark-theme {
+    }
+    
+    .dark-theme {
     --body-background-color: #1F1F1F;
     --body-text-color: #eae0d5;
     --header-background-color: #22333b;
@@ -21,94 +21,94 @@
     --section-text-color: #eae0d5;
     --button-background-color: #5e503f;
     --button-text-color: #eae0d5;
-}
-
-.dark-theme a {
+    }
+    
+    .dark-theme a {
     color: #eae0d5; /* Change color of all <a> elements */
-}
-
-body {
+    }
+    
+    body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
     line-height: 1.6;
     background-color: var(--body-background-color);
     color: var(--body-text-color);
-}
-
-header {
+    }
+    
+    header {
     background-color: var(--header-background-color);
     color: var(--header-text-color);
     padding: 20px;
     text-align: center;
-}
-
-footer {
+    }
+    
+    footer {
     background-color: var(--footer-background-color);
     color: var(--footer-text-color);
     text-align: center;
     padding: 20px;
-}
-
-main {
+    }
+    
+    main {
     padding: 30px;
     margin-left: 60px;
     margin-right: 60px;
-}
-
-.section {
+    }
+    
+    .section {
     margin-bottom: 30px;
     padding-bottom: 20px;
-}
-
-.section h2 {
+    }
+    
+    .section h2 {
     color: var(--section-text-color);
     padding: 30px;
     margin-top: 0px;
     text-align: center;
-}
-
-.section p {
+    }
+    
+    .section p {
     margin-bottom: 20px;
     margin-left: 60px;
     margin-right: 60px;
-}
-
-a {
+    }
+    
+    a {
     font-family: Arial, sans-serif;
     color: var(--darkest-color);
-}
-
-.dark-mode .section p {
+    }
+    
+    .dark-mode .section p {
     color: var(--lightest-color);
-}
-
-.dark-mode a {
+    }
+    
+    .dark-mode a {
     color: var(--lightest-color);
-}
-
-button {
+    }
+    
+    button {
     background-color: var(--button-background-color);
     color: var(--button-text-color);
     border: none;
     padding: 10px 20px;
     font-size: 1em;
     cursor: pointer;
-}
-
-button:hover {
+    }
+    
+    button:hover {
     background-color: var(--second-lightest-color);
-}
-
-.top-button {
+    }
+    
+    .top-button {
     background-color: transparent;
     border: none;
     cursor: pointer;
     margin-right: 10px;
-}
-
-/* CSS for Mobile Devices */
-@media only screen and (max-width: 600px) {
+    }
+    
+    /* CSS for Mobile Devices */
+    @media only screen and (max-width: 600px) {
     .mobile-device body {
     --body-background-color: #0a0908;
     --body-text-color: #eae0d5;
