@@ -77,20 +77,20 @@ button:hover {
         margin: 0;
         padding: 0;
         line-height: 1.6;
-        background-color: #0a0908; /* Lightest color from the second palette - default dark mode */
-        color: #eae0d5; /* Lightest color from the second palette - default dark mode */
+        background-color: #0a0908; /* Background color from palette 2 - default dark mode */
+        color: #eae0d5; /* Text color from palette 2 - default dark mode */
     }
 
     .mobile-device header {
-        background-color: #22333b; /* Color from the second palette - default dark mode */
-        color: #eae0d5; /* Lightest color from the second palette - default dark mode */
+        background-color: #22333b; /* Header background color from palette 2 - default dark mode */
+        color: #eae0d5; /* Header text color from palette 2 - default dark mode */
         padding: 0; /* Remove padding */
         text-align: center;
     }
 
     .mobile-device footer {
-        background-color: #22333b; /* Color from the second palette - default dark mode */
-        color: #eae0d5; /* Lightest color from the second palette - default dark mode */
+        background-color: #22333b; /* Footer background color from palette 2 - default dark mode */
+        color: #eae0d5; /* Footer text color from palette 2 - default dark mode */
         text-align: center;
         padding: 20px;
     }
@@ -106,7 +106,7 @@ button:hover {
     }
 
     .mobile-device .section h2 {
-        color: #eae0d5; /* Lightest color from the second palette - default dark mode */
+        color: #283618; /* Text color from palette 1 */
         padding: 0;
         margin-top: 0;
     }
@@ -122,8 +122,8 @@ button:hover {
     }
 
     .mobile-device button {
-        background-color: #5e503f; /* Color from the second palette - default dark mode */
-        color: #eae0d5; /* Lightest color from the second palette - default dark mode */
+        background-color: #5e503f; /* Button background color from palette 2 - default dark mode */
+        color: #eae0d5; /* Button text color from palette 2 - default dark mode */
         border: none;
         padding: 10px 20px;
         font-size: 1em;
@@ -131,7 +131,7 @@ button:hover {
     }
 
     .mobile-device button:hover {
-        background-color: #dda15e; /* Second lightest color from the first palette */
+        background-color: #dda15e; /* Button hover background color from palette 1 */
     }
 
     .mobile-device .top-button {
