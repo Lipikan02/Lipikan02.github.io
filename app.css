@@ -83,6 +83,7 @@ button:hover {
         background-color: #22333b; /* Header background color from palette 2 - default dark mode */
         color: #eae0d5; /* Header text color from palette 2 - default dark mode */
         padding: 0; /* Remove padding */
+        margin: 0; /* Remove margin */
         text-align: center;
     }
 
