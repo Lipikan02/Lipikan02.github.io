@@ -59,7 +59,7 @@
     .section p {
     margin-bottom: 12px;
     }
-    
+/*
 @media only screen and (min-width: 600px) {
 
 
@@ -88,6 +88,7 @@
     }
 
 }
+*/
     a {
     font-family: Arial, sans-serif;
     color: var(--darkest-color);
