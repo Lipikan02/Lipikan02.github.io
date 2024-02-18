@@ -70,8 +70,10 @@ button:hover {
 }
 
 }
-/* Mobile Styles */
-@media only screen and (max-width: 600px) {
+
+
+/* CSS for Mobile Devices */
+.mobile-device {
     main {
         background-color: #da74ce; /* Lightest color from the first palette - default light mode */
         padding: 10px;

@@ -8,6 +8,18 @@ const aboutButton2 = document.getElementById('aboutButton2');
 const resumeSection = document.getElementById('resume');
 const aboutSection = document.getElementById('about');
 
+// JavaScript for detecting mobile devices and adding a class to the body
+
+// Function to check if the device is a mobile device
+function isMobileDevice() {
+    return (typeof window.orientation !== "undefined") || (navigator.userAgent.indexOf('IEMobile') !== -1);
+}
+
+// Add a class to the body if the device is a mobile device
+if (isMobileDevice()) {
+    document.body.classList.add('mobile-device');
+}
+
 // Function to toggle visibility of sections
 function toggleSections(showResume) {
     if (showResume) {
