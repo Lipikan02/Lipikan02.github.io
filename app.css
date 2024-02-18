@@ -61,6 +61,13 @@ button:hover {
     background-color: #dda15e; /* Second lightest color from the first palette */
 }
 
+.top-button {
+    background-color: transparent; /* Remove background */
+    border: none; /* Remove border */
+    cursor: pointer;
+    margin-right: 10px; /* Add some right margin */
+}
+
 /* Mobile Styles */
 @media only screen and (max-width: 600px) {
     main {
