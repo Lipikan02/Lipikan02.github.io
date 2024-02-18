@@ -27,6 +27,89 @@
     color: #eae0d5; /* Change color of all <a> elements */
     }
 
+    body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    background-color: var(--body-background-color);
+    color: var(--body-text-color);
+    }
+
+    header {
+    background-color: var(--header-background-color);
+    color: var(--header-text-color);
+    padding: 20px;
+    text-align: center;
+    }
+
+    footer {
+    background-color: var(--footer-background-color);
+    color: var(--footer-text-color);
+    text-align: center;
+    padding: 20px;
+    }
+    
+@media only screen and (min-width: 600px) {
+
+
+    main {
+    padding: 30px;
+    margin-left: 60px;
+    margin-right: 60px;
+    }
+
+    .section {
+    margin-bottom: 30px;
+    padding-bottom: 20px;
+    }
+
+    .section h2 {
+    color: var(--section-text-color);
+    padding: 30px;
+    margin-top: 0px;
+    text-align: center;
+    }
+
+    .section p {
+    margin-bottom: 20px;
+    margin-left: 60px;
+    margin-right: 60px;
+    }
+
+}
+    a {
+    font-family: Arial, sans-serif;
+    color: var(--darkest-color);
+    }
+    
+    .dark-mode .section p {
+    color: var(--lightest-color);
+    }
+    
+    .dark-mode a {
+    color: var(--lightest-color);
+    }
+    
+    button {
+    background-color: var(--button-background-color);
+    color: var(--button-text-color);
+    border: none;
+    padding: 10px 20px;
+    font-size: 1em;
+    cursor: pointer;
+    }
+    
+    button:hover {
+    background-color: var(--second-lightest-color);
+    }
+    
+    .top-button {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    margin-right: 10px;
+    }
 
     /* CSS for Mobile Devices 22333b*/
 @media only screen and (max-width: 600px) {
@@ -106,87 +189,4 @@
     padding-bottom: 20px;
     margin-top: 0;
     }
-}
-@media only screen and (min-width: 600px) {
-
-    body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-    line-height: 1.6;
-    background-color: var(--body-background-color);
-    color: var(--body-text-color);
-    }
-
-    header {
-    background-color: var(--header-background-color);
-    color: var(--header-text-color);
-    padding: 20px;
-    text-align: center;
-    }
-
-    footer {
-    background-color: var(--footer-background-color);
-    color: var(--footer-text-color);
-    text-align: center;
-    padding: 20px;
-    }
-  
-    main {
-    padding: 30px;
-    margin-left: 60px;
-    margin-right: 60px;
-    }
-
-    .section {
-    margin-bottom: 30px;
-    padding-bottom: 20px;
-    }
-
-    .section h2 {
-    color: var(--section-text-color);
-    padding: 30px;
-    margin-top: 0px;
-    text-align: center;
-    }
-
-    .section p {
-    margin-bottom: 20px;
-    margin-left: 60px;
-    margin-right: 60px;
-    }
-
-    a {
-    font-family: Arial, sans-serif;
-    color: var(--darkest-color);
-    }
-    
-    .dark-mode .section p {
-    color: var(--lightest-color);
-    }
-    
-    .dark-mode a {
-    color: var(--lightest-color);
-    }
-    
-    button {
-    background-color: var(--button-background-color);
-    color: var(--button-text-color);
-    border: none;
-    padding: 10px 20px;
-    font-size: 1em;
-    cursor: pointer;
-    }
-    
-    button:hover {
-    background-color: var(--second-lightest-color);
-    }
-    
-    .top-button {
-    background-color: transparent;
-    border: none;
-    cursor: pointer;
-    margin-right: 10px;
-    }
-
 }
