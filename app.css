@@ -64,7 +64,7 @@ button:hover {
 /* Mobile Styles */
 @media only screen and (max-width: 600px) {
     main {
-        padding: 20px;
+        padding: 10px;
         margin: 0; /* Reset margin */
     }
     
@@ -77,11 +77,13 @@ button:hover {
         padding: 0; /* Reset padding */
     }
     
+    /* Center the buttons horizontally */
+    .button-container {
+        text-align: center;
+    }
+    
     button {
         padding: 8px 16px;
         margin-top: 5px; /* Add a little padding to the top */
-        display: block; /* Ensure button takes full width */
-        margin: 0 auto; /* Center the button horizontally */
     }
-}
 }
