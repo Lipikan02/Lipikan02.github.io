@@ -78,31 +78,32 @@ function changeColorPalette() {
 
   if (isPalette1) {
     // Apply color palette 2
-    body.style.backgroundColor = '#0a0908';
+    body.style.backgroundColor = '#1F1F1F';
     body.style.color = '#eae0d5';
-    header.style.backgroundColor = '#22333b'; // Color from palette 2 for header
-    footer.style.backgroundColor = '#22333b'; // Color from palette 2 for footer
+    header.style.backgroundColor = '#22333b'; // Header background color from palette 2
+    footer.style.backgroundColor = '#22333b'; // Footer background color from palette 2
     h2Elements.forEach(h2 => {
-      h2.style.color = '#283618'; // Color from palette 1 for text
+        h2.style.color = '#283618'; // Text color from palette 1
     });
     buttons.forEach(button => {
-      button.style.backgroundColor = '#5e503f'; // Color from palette 2 for buttons
-      button.style.color = '#eae0d5'; // Color from palette 2 for button text
+        button.style.backgroundColor = '#5e503f'; // Button background color from palette 2
+        button.style.color = '#eae0d5'; // Button text color from palette 2
     });
-  } else {
+} else {
     // Apply color palette 1
     body.style.backgroundColor = '#fefae0';
     body.style.color = '#283618';
-    header.style.backgroundColor = '#606c38'; // Color from palette 1 for header
-    footer.style.backgroundColor = '#606c38'; // Color from palette 1 for footer
+    header.style.backgroundColor = '#22333b'; // Header background color from palette 2
+    footer.style.backgroundColor = '#22333b'; // Footer background color from palette 2
     h2Elements.forEach(h2 => {
-      h2.style.color = '#283618'; // Color from palette 1 for text
+        h2.style.color = '#283618'; // Text color from palette 1
     });
     buttons.forEach(button => {
-      button.style.backgroundColor = '#bc6c25'; // Color from palette 1 for buttons
-      button.style.color = '#fefae0'; // Color from palette 1 for button text
+        button.style.backgroundColor = '#5e503f'; // Button background color from palette 2
+        button.style.color = '#eae0d5'; // Button text color from palette 2
     });
-  }
+}
+
 
   isPalette1 = !isPalette1; // Toggle the palette
 }
