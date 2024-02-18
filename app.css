@@ -26,7 +26,89 @@
     .dark-theme a {
     color: #eae0d5; /* Change color of all <a> elements */
     }
+
+
+    /* CSS for Mobile Devices 22333b*/
+@media only screen and (max-width: 600px) {
+
+    .mobile-device body {
+    --body-background-color: #0a0908;
+    --body-text-color: #eae0d5;
+    padding: 0px;
+    margin: 0;
+    }
     
+    .mobile-device header {
+    --header-background-color: #ca329f;
+    --header-text-color: #eae0d5;
+    padding: 14px;
+    margin: 0;
+    text-align: center;
+    }
+    
+    .mobile-device footer {
+    --footer-background-color: #22333b;
+    --footer-text-color: #eae0d5;
+    text-align: center;
+    padding: 20px;
+    }
+    
+    .mobile-device main {
+    padding: 0px;
+    margin: 0;
+    margin-left: 5px;
+    margin-right: 5px;
+    }
+    
+    .mobile-device .section {
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+    }
+    
+    .mobile-device .section h2 {
+    color: var(--darkest-color);
+    padding: 0;
+    margin-top: 0;
+    }
+    
+    .mobile-device .section p {
+    margin-bottom: 10px;
+    margin-left: 0;
+    margin-right: 0;
+    }
+    
+    .mobile-device .dark-mode .section p {
+    color: var(--lightest-color);
+    }
+    
+    .mobile-device button {
+    background-color: var(--button-background-color);
+    color: var(--button-text-color);
+    border: none;
+    padding: 10px 20px;
+    font-size: 1em;
+    cursor: pointer;
+    }
+    
+    .mobile-device button:hover {
+    background-color: var(--second-lightest-color);
+    }
+    
+    .mobile-device .top-button {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    margin-right: 10px;
+    }
+    
+    .mobile-device .banner {
+    padding-top: 24px;
+    padding-bottom: 20px;
+    margin-top: 0;
+    }
+}
+@media only screen and (min-width: 600px) {
+
     body {
     font-family: Arial, sans-serif;
     margin: 0;
@@ -107,82 +189,4 @@
     margin-right: 10px;
     }
 
-    /* CSS for Mobile Devices 0a0908*/
-    @media only screen and (max-width: 600px) {
-
-    .mobile-device body {
-    --body-background-color: #b79def;
-    --body-text-color: #eae0d5;
-    padding: 0px;
-    margin: 0;
-    }
-    
-    .mobile-device header {
-    --header-background-color: #22333b;
-    --header-text-color: #eae0d5;
-    padding: 14px;
-    margin: 0;
-    text-align: center;
-    }
-    
-    .mobile-device footer {
-    --footer-background-color: #22333b;
-    --footer-text-color: #eae0d5;
-    text-align: center;
-    padding: 20px;
-    }
-    
-    .mobile-device main {
-    padding: 0px;
-    margin: 0;
-    margin-left: 5px;
-    margin-right: 5px;
-    }
-    
-    .mobile-device .section {
-    margin-bottom: 10px;
-    padding-bottom: 10px;
-    }
-    
-    .mobile-device .section h2 {
-    color: var(--darkest-color);
-    padding: 0;
-    margin-top: 0;
-    }
-    
-    .mobile-device .section p {
-    margin-bottom: 10px;
-    margin-left: 0;
-    margin-right: 0;
-    }
-    
-    .mobile-device .dark-mode .section p {
-    color: var(--lightest-color);
-    }
-    
-    .mobile-device button {
-    background-color: var(--button-background-color);
-    color: var(--button-text-color);
-    border: none;
-    padding: 10px 20px;
-    font-size: 1em;
-    cursor: pointer;
-    }
-    
-    .mobile-device button:hover {
-    background-color: var(--second-lightest-color);
-    }
-    
-    .mobile-device .top-button {
-    background-color: transparent;
-    border: none;
-    cursor: pointer;
-    margin-right: 10px;
-    }
-    
-    .mobile-device .banner {
-    padding-top: 24px;
-    padding-bottom: 20px;
-    margin-top: 0;
-    }
-    }
+}
