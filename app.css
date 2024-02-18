@@ -59,6 +59,13 @@
     .section p {
     margin-bottom: 12px;
     }
+
+    .section h2 {
+    color: var(--section-text-color);
+    padding: 30px;
+    margin-top: 0px;
+    text-align: center;
+    }
 /*
 @media only screen and (min-width: 600px) {
 
@@ -72,13 +79,6 @@
     .section {
     margin-bottom: 30px;
     padding-bottom: 20px;
-    }
-
-    .section h2 {
-    color: var(--section-text-color);
-    padding: 30px;
-    margin-top: 0px;
-    text-align: center;
     }
 
     .section p {
