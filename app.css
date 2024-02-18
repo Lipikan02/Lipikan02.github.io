@@ -130,13 +130,13 @@ button:hover {
     }
 
     .mobile-device main {
-        padding: 20px;
+        padding: 0px;
         margin: 0;
     }
 
     .mobile-device .section {
-        margin-bottom: 20px;
-        padding-bottom: 20px;
+        margin-bottom: 10px;
+        padding-bottom: 10px;
     }
 
     .mobile-device .section h2 {
