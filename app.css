@@ -65,11 +65,20 @@ button:hover {
 @media only screen and (max-width: 600px) {
     main {
         padding: 10px;
+        margin-left: 20px; /* Adjusted margin for mobile */
+        margin-right: 20px; /* Adjusted margin for mobile */
     }
     
     .section {
         margin-bottom: 15px;
         padding-bottom: 5px;
+        margin-left: 20px; /* Adjusted margin for mobile */
+        margin-right: 20px; /* Adjusted margin for mobile */
+    }
+    
+    .section p {
+        margin-left: 20px; /* Adjusted margin for mobile */
+        margin-right: 20px; /* Adjusted margin for mobile */
     }
     
     button {
