@@ -64,21 +64,20 @@ button:hover {
 /* Mobile Styles */
 @media only screen and (max-width: 600px) {
     main {
-        padding: 5px;
+        padding: 10px;
         margin-left: 10px; /* Adjusted margin for mobile */
         margin-right: 10px; /* Adjusted margin for mobile */
     }
     
     .section {
-        margin-bottom: 10px;
-        padding-bottom: 5px;
-        margin-left: 0px; /* Adjusted margin for mobile */
-        margin-right: 0px; /* Adjusted margin for mobile */
+        margin-bottom: 10px; /* Further reduced margin bottom */
+        padding-bottom: 0px; /* Removed padding bottom */
+        margin-left: 10px; /* Adjusted margin for mobile */
+        margin-right: 10px; /* Adjusted margin for mobile */
     }
     
     .section p {
-        margin-left: 0px; /* Adjusted margin for mobile */
-        margin-right: 0px; /* Adjusted margin for mobile */
+        padding: 0 10px; /* Further reduced padding for left and right */
     }
     
     button {
