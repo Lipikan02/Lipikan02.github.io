@@ -34,8 +34,9 @@ main {
 
 .section h2 {
     color: #22333b; /* Darkest color from the first palette - default light mode */
-    padding: 0px;
+    padding: 30px;
     margin-top: 0px;
+    text-align: center;
 }
 
 .section p {

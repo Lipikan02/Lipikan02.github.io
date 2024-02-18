@@ -83,7 +83,7 @@ function changeColorPalette() {
     header.style.backgroundColor = '#22333b'; // Header background color from palette 2
     footer.style.backgroundColor = '#22333b'; // Footer background color from palette 2
     h2Elements.forEach(h2 => {
-        h2.style.color = '#283618'; // Text color from palette 1
+        h2.style.color = '#eae0d5'; // Text color from palette 1
     });
     buttons.forEach(button => {
         button.style.backgroundColor = '#5e503f'; // Button background color from palette 2
