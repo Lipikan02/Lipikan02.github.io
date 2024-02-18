@@ -143,7 +143,7 @@ button:hover {
     }
     
     .mobile-device .banner {
-        padding-top: 40px; /* Increase top padding */
+        padding-top: 24px; /* Increase top padding */
         padding-bottom: 20px; /* Add bottom padding */
         margin-top: 0; /* Remove any top margin for the banner */
     }
