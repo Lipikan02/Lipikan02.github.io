@@ -35,7 +35,7 @@ main {
 .section h2 {
     color: #283618; /* Darkest color from the first palette - default light mode */
     padding: 0px;
-    margin-top: 0;
+    margin-top: 0px;
 }
 
 .section p {
@@ -64,21 +64,21 @@ button:hover {
 /* Mobile Styles */
 @media only screen and (max-width: 600px) {
     main {
-        padding: 10px;
-        margin-left: 20px; /* Adjusted margin for mobile */
-        margin-right: 20px; /* Adjusted margin for mobile */
+        padding: 5px;
+        margin-left: 10px; /* Adjusted margin for mobile */
+        margin-right: 10px; /* Adjusted margin for mobile */
     }
     
     .section {
-        margin-bottom: 15px;
+        margin-bottom: 10px;
         padding-bottom: 5px;
-        margin-left: 20px; /* Adjusted margin for mobile */
-        margin-right: 20px; /* Adjusted margin for mobile */
+        margin-left: 0px; /* Adjusted margin for mobile */
+        margin-right: 0px; /* Adjusted margin for mobile */
     }
     
     .section p {
-        margin-left: 20px; /* Adjusted margin for mobile */
-        margin-right: 20px; /* Adjusted margin for mobile */
+        margin-left: 0px; /* Adjusted margin for mobile */
+        margin-right: 0px; /* Adjusted margin for mobile */
     }
     
     button {
