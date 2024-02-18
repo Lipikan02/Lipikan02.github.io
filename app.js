@@ -3,6 +3,8 @@
 // Get references to the buttons and sections
 const resumeButton = document.getElementById('resumeButton');
 const aboutButton = document.getElementById('aboutButton');
+const resumeButton2 = document.getElementById('resumeButton2');
+const aboutButton2 = document.getElementById('aboutButton2');
 const resumeSection = document.getElementById('resume');
 const aboutSection = document.getElementById('about');
 
@@ -30,6 +32,15 @@ resumeButton.addEventListener('click', function() {
 aboutButton.addEventListener('click', function() {
     toggleSections(false);
 });
+
+resumeButton2.addEventListener('click', function() {
+    toggleSections(true);
+});
+
+aboutButton2.addEventListener('click', function() {
+    toggleSections(false);
+});
+
 
 // Function to update the header text based on the current section's title
 function updateHeader(title) {
