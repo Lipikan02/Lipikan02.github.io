@@ -112,6 +112,8 @@
     .mobile-device body {
     --body-background-color: #0a0908;
     --body-text-color: #eae0d5;
+    padding: 0px;
+    margin: 0;
     }
     
     .mobile-device header {
