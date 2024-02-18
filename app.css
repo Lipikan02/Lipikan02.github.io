@@ -82,6 +82,7 @@ button:hover {
     .mobile-device header {
         background-color: #22333b; /* Header background color from palette 2 - default dark mode */
         color: #eae0d5; /* Header text color from palette 2 - default dark mode */
+        
         padding: 20; /* Remove padding */
         margin: 0; /* Remove margin */
         text-align: center;
@@ -141,6 +142,8 @@ button:hover {
     }
     
     .mobile-device .banner {
+        padding-top: 40px; /* Increase top padding */
+        padding-bottom: 20px; /* Add bottom padding */
         margin-top: 0; /* Remove any top margin for the banner */
     }
 }
