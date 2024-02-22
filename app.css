@@ -47,7 +47,10 @@
     background-color: var(--footer-background-color);
     color: var(--footer-text-color);
     text-align: center;
+    justify-content: center;
+    align-items: center;
     padding: 20px;
+    flex-direction: column;
     }
 
     main {
@@ -103,17 +106,12 @@
     font-size: 1em;
     cursor: pointer;
     }
+      
     
     button:hover {
     background-color: var(--second-lightest-color);
     }
-    
-    .top-button {
-    background-color: transparent;
-    border: none;
-    cursor: pointer;
-    margin-right: 10px;
-    }
+
 
     /* CSS for Mobile Devices 
 @media only screen and (max-width: 600px) {
@@ -196,3 +194,84 @@
 }
 
 */
+
+
+.card {
+    /* width: fit-content; */
+    height: fit-content;
+    background-color: var(--footer-background-color);
+    display: flex;
+    /* flex-direction: column; */
+    align-items: center; /* Center horizontally */
+    justify-content: center; /* Center vertically */
+    /* padding: 25px 25px; */
+    gap: 20px;
+  }  
+  
+  /* for all social containers*/
+  .socialContainer {
+    width: 45px;
+    height: 45px;
+    background-color: var(--button-background-color);
+    color: var(--button-text-color);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    transition-duration: .3s;
+    text-align: center;
+  }
+  /* instagram*/
+  .containerOne {
+    align-items: center;
+  }
+  .containerOne:hover {
+    background-color: #d62976;
+    transition-duration: .3s;
+  }
+  /* twitter*/
+  .containerTwo:hover {
+    background-color: #00acee;
+    transition-duration: .3s;
+  }
+  /* linkdin*/
+  .containerThree:hover {
+    background-color: #0072b1;
+    transition-duration: .3s;
+  }
+  /* Whatsapp*/
+  .containerFour:hover {
+    background-color: #128C7E;
+    transition-duration: .3s;
+  }
+  
+  .socialContainer:active {
+    transform: scale(0.9);
+    transition-duration: .3s;
+  }
+  
+  .socialSvg {
+    width: 22px; /* Adjust the width to make the SVG icon bigger */
+    height: 22px; /* Adjust the height to maintain the aspect ratio */
+  }
+  
+  .socialSvg path {
+    fill: var(--footer-text-color);
+  }
+  
+  .socialContainer:hover .socialSvg {
+    animation: slide-in-top 0.3s both;
+  }
+  
+  @keyframes slide-in-top {
+    0% {
+      transform: translateY(-50px);
+      opacity: 0;
+    }
+  
+    100% {
+      transform: translateY(0);
+      opacity: 1;
+    }
+  }
+  
