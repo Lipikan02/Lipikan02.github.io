@@ -19,11 +19,17 @@
 }
 
 body {
+        display: flex;
+    flex-direction: column;
     font-family: 'Roboto Mono', monospace;
     line-height: 1.6;
     color: var(--text-color);
     background-color: var(--background-color);
     transition: background-color 0.3s, color 0.3s;
+}
+
+main {
+    flex: 1;
 }
 
 header {
