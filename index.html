@@ -5,33 +5,44 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Luc Iñaki Palacios - Portfolio</title>
     <link rel="stylesheet" href="style.css">
-    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300;400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700;900&display=swap" rel="stylesheet">
 </head>
 <body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#home" class="nav-link">Home</a></li>
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#resume" class="nav-link">Resume</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
     <main>
-        <section id="hero">
-            <div class="ascii-art">
-                <!-- ASCII art representation of your profile -->
-                [ASCII art placeholder]
-            </div>
-            <h1>Luc Iñaki Palacios</h1>
-            <p class="tagline">Computer Science Student at University of Colorado Boulder</p>
-            <p class="location">Based in Boulder, CO</p>
+        <section id="home" class="section">
+            <h1 class="glitch" data-text="LUC IÑAKI PALACIOS">LUC IÑAKI PALACIOS</h1>
+            <p class="tagline">Computer Science Student | Tech Innovator | Adventure Seeker</p>
         </section>
-        
-        <section id="about">
+
+        <section id="about" class="section">
             <h2>About Me</h2>
-            <p>Greetings! I'm Luc Iñaki Palacios, a Computer Science student at the University of Colorado Boulder, class of 2026. My unconventional educational journey, from homeschooling to community college, has shaped my unique perspective and self-driven approach to learning.</p>
-            <p>I'm passionate about programming, AI advancements, and emerging technologies. When I'm not coding, you can find me piloting FPV drones, snowboarding, or strategizing in a game of Magic: The Gathering.</p>
-            <p>My goal is to surf the wave of technological innovation, combining my technical skills with a spirit of adventure and curiosity.</p>
+            <p>I'm a Computer Science student at the University of Colorado Boulder, class of 2026. My journey from homeschooling to university has fueled my passion for technology and innovation.</p>
+            <p>When I'm not coding, you'll find me piloting FPV drones, shredding on a snowboard, or diving into the latest AI advancements.</p>
         </section>
-        
-        <section id="contact">
+
+        <section id="resume" class="section">
+            <h2>Resume</h2>
+            <p>Check out my full resume for more details on my experience and skills.</p>
+            <a href="resume.html" class="btn">View Full Resume</a>
+        </section>
+
+        <section id="contact" class="section">
             <h2>Get in Touch</h2>
             <a href="mailto:kindlipr@gmail.com" class="btn">kindlipr@gmail.com</a>
         </section>
     </main>
-    
+
     <footer>
         <div class="social-links">
             <a href="https://www.linkedin.com/in/lucpalacios/" target="_blank" class="social-icon">LinkedIn</a>
@@ -39,5 +50,7 @@
         </div>
         <p>&copy; 2024 Luc Palacios</p>
     </footer>
+
+    <script src="script.js"></script>
 </body>
 </html>
