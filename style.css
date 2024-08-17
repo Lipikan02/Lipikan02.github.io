@@ -45,13 +45,13 @@ nav ul li a {
 }
 
 main {
-    max-width: 1200px;
+    max-width: 800px;
     margin: 0 auto;
     padding: 2rem;
 }
 
 section {
-    margin-bottom: 4rem;
+    margin-bottom: 2rem;
 }
 
 h1, h2, h3 {
@@ -87,20 +87,6 @@ p {
     text-align: center;
 }
 
-.resume-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-    gap: 2rem;
-    margin-bottom: 2rem;
-}
-
-.resume-item {
-    background-color: white;
-    padding: 1.5rem;
-    border-radius: 5px;
-    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
-}
-
 .btn {
     display: inline-block;
     background-color: var(--primary-color);
@@ -132,18 +118,6 @@ footer {
     margin: 0 0.5rem;
 }
 
-@media (max-width: 768px) {
-    h1 {
-        font-size: 3rem;
-    }
-    h2 {
-        font-size: 2rem;
-    }
-    .tagline {
-        font-size: 1.2rem;
-    }
-}
-
 /* Resume page specific styles */
 .resume-page {
     padding-top: 80px; /* To account for the fixed header */
@@ -158,13 +132,12 @@ footer {
 .resume-page h2 {
     font-size: 2rem;
     margin-top: 2rem;
-    border-bottom: 2px solid var(--secondary-color);
-    padding-bottom: 0.5rem;
+    color: var(--secondary-color);
 }
 
 .resume-page h3 {
     font-size: 1.5rem;
-    color: var(--secondary-color);
+    color: var(--primary-color);
 }
 
 .resume-page ul {
@@ -174,13 +147,18 @@ footer {
 
 .resume-page section {
     margin-bottom: 2rem;
-    background-color: white;
-    padding: 2rem;
-    border-radius: 8px;
-    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
 }
 
 @media (max-width: 768px) {
+    h1 {
+        font-size: 3rem;
+    }
+    h2 {
+        font-size: 2rem;
+    }
+    .tagline {
+        font-size: 1.2rem;
+    }
     .resume-page h1 {
         font-size: 2.5rem;
     }
@@ -189,8 +167,5 @@ footer {
     }
     .resume-page h3 {
         font-size: 1.3rem;
-    }
-    .resume-page section {
-        padding: 1.5rem;
     }
 }
