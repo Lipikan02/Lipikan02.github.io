@@ -1,9 +1,15 @@
 :root {
-    --primary-color: #0a0a0a;
-    --secondary-color: #ff4d5a;
-    --background-color: #1a1a1a;
+    --background-color: #ffffff;
+    --text-color: #000000;
+    --link-color: #000000;
+    --hover-color: #666666;
+}
+
+.dark-mode {
+    --background-color: #000000;
     --text-color: #ffffff;
-    --accent-color: #00ffff;
+    --link-color: #ffffff;
+    --hover-color: #999999;
 }
 
 * {
@@ -13,202 +19,90 @@
 }
 
 body {
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto Mono', monospace;
     line-height: 1.6;
     color: var(--text-color);
     background-color: var(--background-color);
-    overflow-x: hidden;
+    transition: background-color 0.3s, color 0.3s;
 }
 
 header {
-    background-color: var(--primary-color);
-    padding: 1rem 0;
-    position: fixed;
-    width: 100%;
-    top: 0;
-    z-index: 1000;
+    padding: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 nav ul {
     display: flex;
-    justify-content: center;
     list-style-type: none;
 }
 
 nav ul li {
-    margin: 0 1rem;
+    margin-right: 1rem;
 }
 
-.nav-link {
-    color: var(--text-color);
+nav ul li a {
+    color: var(--link-color);
     text-decoration: none;
-    font-size: 1.1rem;
-    font-weight: 700;
-    text-transform: uppercase;
-    transition: color 0.3s ease;
+    font-weight: bold;
+    transition: color 0.3s;
 }
 
-.nav-link:hover {
-    color: var(--accent-color);
+nav ul li a:hover {
+    color: var(--hover-color);
 }
 
 main {
-    padding: 6rem 2rem 2rem;
-}
-
-.section {
-    min-height: 100vh;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    max-width: 800px;
+    margin: 2rem auto;
+    padding: 0 1rem;
     text-align: center;
 }
 
 h1 {
-    font-size: 4rem;
-    font-weight: 900;
+    font-size: 3rem;
     margin-bottom: 1rem;
-    text-transform: uppercase;
 }
 
-h2 {
-    font-size: 2.5rem;
-    color: var(--secondary-color);
-    margin-bottom: 1.5rem;
-}
-
-p {
+.tagline, .location {
     font-size: 1.2rem;
-    max-width: 800px;
-    margin-bottom: 1.5rem;
-}
-
-.tagline {
-    font-size: 1.5rem;
-    color: var(--accent-color);
-    margin-bottom: 2rem;
-}
-
-.btn {
-    display: inline-block;
-    background-color: var(--secondary-color);
-    color: var(--text-color);
-    padding: 0.8rem 1.5rem;
-    text-decoration: none;
-    border-radius: 5px;
-    font-weight: 700;
-    text-transform: uppercase;
-    transition: transform 0.3s ease, box-shadow 0.3s ease;
-}
-
-.btn:hover {
-    transform: translateY(-3px);
-    box-shadow: 0 5px 15px rgba(255, 77, 90, 0.4);
+    margin-bottom: 0.5rem;
 }
 
 footer {
-    background-color: var(--primary-color);
-    color: var(--text-color);
     text-align: center;
-    padding: 1rem 0;
+    padding: 1rem;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
 }
 
 .social-links {
     margin-bottom: 1rem;
 }
 
-.social-icon {
-    color: var(--text-color);
+.social-links a {
+    color: var(--link-color);
     text-decoration: none;
     margin: 0 0.5rem;
-    font-weight: 700;
-    transition: color 0.3s ease;
+    transition: color 0.3s;
 }
 
-.social-icon:hover {
-    color: var(--accent-color);
+.social-links a:hover {
+    color: var(--hover-color);
 }
 
-/* Glitch effect */
-.glitch {
-    position: relative;
+#darkModeToggle {
+    background: none;
+    border: 1px solid var(--text-color);
+    color: var(--text-color);
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
 }
 
-.glitch::before,
-.glitch::after {
-    content: attr(data-text);
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-}
-
-.glitch::before {
-    left: 2px;
-    text-shadow: -2px 0 var(--secondary-color);
-    clip: rect(24px, 550px, 90px, 0);
-    animation: glitch-anim-2 3s infinite linear alternate-reverse;
-}
-
-.glitch::after {
-    left: -2px;
-    text-shadow: -2px 0 var(--accent-color);
-    clip: rect(85px, 550px, 140px, 0);
-    animation: glitch-anim 2.5s infinite linear alternate-reverse;
-}
-
-@keyframes glitch-anim {
-    0% {
-        clip: rect(17px, 9999px, 94px, 0);
-    }
-    20% {
-        clip: rect(37px, 9999px, 50px, 0);
-    }
-    40% {
-        clip: rect(58px, 9999px, 22px, 0);
-    }
-    60% {
-        clip: rect(80px, 9999px, 66px, 0);
-    }
-    80% {
-        clip: rect(108px, 9999px, 3px, 0);
-    }
-    100% {
-        clip: rect(129px, 9999px, 39px, 0);
-    }
-}
-
-@keyframes glitch-anim-2 {
-    0% {
-        clip: rect(129px, 9999px, 36px, 0);
-    }
-    20% {
-        clip: rect(36px, 9999px, 78px, 0);
-    }
-    40% {
-        clip: rect(68px, 9999px, 11px, 0);
-    }
-    60% {
-        clip: rect(92px, 9999px, 46px, 0);
-    }
-    80% {
-        clip: rect(1px, 9999px, 84px, 0);
-    }
-    100% {
-        clip: rect(22px, 9999px, 59px, 0);
-    }
-}
-
-@media (max-width: 768px) {
-    h1 {
-        font-size: 3rem;
-    }
-    h2 {
-        font-size: 2rem;
-    }
-    .tagline {
-        font-size: 1.2rem;
-    }
+#darkModeToggle:hover {
+    background-color: var(--text-color);
+    color: var(--background-color);
 }
