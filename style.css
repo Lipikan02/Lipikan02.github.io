@@ -122,6 +122,21 @@ footer p {
     color: var(--background-color);
 }
 
+/* Remove bullet points from lists in the resume section */
+.resume-page ul {
+    list-style-type: none; /* Remove bullets */
+    padding-left: 0; /* Remove left padding */
+    margin-left: 0; /* Remove left margin */
+}
+
+/* Adjust font size for list items in the resume section */
+.resume-page ul li {
+    font-size: 0.9rem; /* Lower the font size as needed */
+    margin-bottom: 0.5rem; /* Optional: Add spacing between items */
+}
+
+
+
 /* Contact Section */
 main section {
     margin-bottom: 2rem;
