@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Palacios Portfolio</title>
+    <link rel="stylesheet" href="../resources/css/style.css"> 
+</head>
+
+<header>
+    <div class="dropdown">
+        <button class="dropdown-btn">&#9776;</button>
+        <div class="dropdown-content">
+            <a href="home.html">Home</a>
+            <a href="resume.html">Resume</a>
+            <a href="projects.html">Projects</a>
+            <a href="hobbies.html">Hobbies</a>
+            <a href="contact.html">Contact</a>
+        </div>
+    </div>
+    <img src="../resources/img/cu2.png" alt="Logo" class="logo">
+</header>
+
+<main>
+    <h1>Projects</h1>
+
+    <div class="carousel-container">
+        <div class="carousel-track">
+            <!-- Slide 1 -->
+            <div class="carousel-slide">
+                <div class="flip-card">
+                    <div class="flip-card-inner">
+                        <div class="flip-card-front">
+                            <img src="../resources/img/dragon3.png" alt="Card 1" class="card-image">
+                            <h3 class="blue-letters">Dungeon Game</h3>
+                            <button class="flip-button">Learn More</button>
+                        </div>
+                        <div class="flip-card-back">
+                            <p>Adventure role playing game with goal of beating the dungeon. Coded in C++ and printed on the terminal.</p>
+                            
+                            <button class="flip-button">Back</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Slide 2 -->
+            <div class="carousel-slide">
+                <div class="flip-card">
+                    <div class="flip-card-inner">
+                        <div class="flip-card-front">
+                            <img src="../resources/img/house2.jpg" alt="Card 2" class="card-image">
+                            <h3 class="blue-letters">Housing Data Modeling</h3>
+                            <button class="flip-button">Learn More</button>
+                        </div>
+                        <div class="flip-card-back">
+                            <p>In this project we are essentially trying to answer the question. “How much is a house worth?”</p>
+                            <p>Using housing data from Cook County I predicting housing prices using a linear regression model.</p>
+                            <p>Next, I analyzed the error of the model and brainstormed ways to improve the model's performance.</p>
+                            <p>By adding extra featured I lowered the RMSE by 20%.</p>
+
+                            <button class="flip-button">Back</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Slide 3 -->
+            <div class="carousel-slide">
+                <div class="flip-card">
+                    <div class="flip-card-inner">
+                        <div class="flip-card-front">
+                            <img src="../resources/img/assembly.png" alt="Card 3" class="card-image">
+                            <h3 class="blue-letters">Attack Lab</h3>
+                            <button class="flip-button">Learn More</button>
+                        </div>
+                        <div class="flip-card-back">
+                            <p>Hacking lab focused on code-injection attacks and return-oriented-programming attacks.</p>
+                            <p>Had to read assembly to overflow the buffer with a certain key.</p>
+                            <p>Then wrote assembly and translated it to binary for returning desired outcome.</p>
+
+                            <button class="flip-button">Back</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <button class="carousel-button prev">←</button>
+        <button class="carousel-button next">→</button>
+    </div>
+
+
+
+
+
+
+    <button class="theme-toggle" onclick="toggleTheme()" aria-label="Toggle theme">
+        <svg viewBox="0 0 24 24">
+            <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+        </svg>
+    </button>
+</main>
+    
+<footer>
+    <div class="social-links">
+        <a href="https://www.linkedin.com/in/lucpalacios/" target="_blank">LinkedIn</a>
+        <a href="https://www.instagram.com/inaki.fpv/" target="_blank">Instagram</a>
+    </div>
+    <p>&copy; 2024 Luc Palacios</p>
+</footer>
+
+<script src="../resources/css/script.js"></script>
