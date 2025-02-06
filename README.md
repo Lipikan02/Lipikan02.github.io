@@ -1,1 +1,1 @@
-  https://lipikan02.github.io/
+https://lipikan02.github.io/index.html
